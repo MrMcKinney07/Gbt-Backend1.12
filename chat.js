@@ -10,7 +10,7 @@ export default async function handler(req, res) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${process.env.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}`,
+        "Authorization": `Bearer ${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}`,
       },
       body: JSON.stringify({
         model: "gpt-4o-mini",
